@@ -58,7 +58,14 @@ a:active {
     border-style: solid;
 }
 
-.left {
+.content{
+    width: 100%;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    text-align: center;
+}
+
+.leftpart {
     width: 20%;
     margin: 10px;
     padding: 10px;
@@ -70,7 +77,7 @@ a:active {
 }
 
 
-.middle {
+.centerpart {
     width: 47%;
     margin: 10px;
     padding: 10px;
@@ -81,7 +88,7 @@ a:active {
     float: left;
 }
 
-.right {
+.rightpart {
     width: 20%;
     margin: 10px;
     padding: 10px;
@@ -92,15 +99,6 @@ a:active {
     float: right;
 }
 
-.lower_nav {
-    margin: 10px;
-    padding: 10px;
-    background-color: #999;
-    border-width: 1px;
-    border-color: black;
-    border-style: solid;
-    clear: both;
-}
 
 .legal {
     margin: 10px;
